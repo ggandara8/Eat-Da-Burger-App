@@ -1,8 +1,8 @@
 $(function(){
-    $("#devoured-btn").on("click", function(event){
+    $(document).on("click", ".devoured-btn", function(event){
         var id = $(this).data("id");
         var dev = $(this).data("devoured"); 
-
+      console.log("working");
         var devouredEvent = {
             devoured: dev
         };
