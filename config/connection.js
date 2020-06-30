@@ -1,4 +1,5 @@
 var mysql = require("mysql");
+
 var connectionConfig = process.env.JAWSDB_URL ? process.env.JAWSDB_URL : {
   host: "localhost",
   port: 3306,
