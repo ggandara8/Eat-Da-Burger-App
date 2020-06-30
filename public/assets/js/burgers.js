@@ -22,6 +22,7 @@ $(function(){
 
 $(function(){
   $("#submit-btn").on("click", function(event){
+    event.preventDefault();
     var newBurger = {
       burger_name: $("#newBurger").val().trim()
     };
